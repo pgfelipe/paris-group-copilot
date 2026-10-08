@@ -3,6 +3,15 @@
 Copiloto de venture studio para discovery e execução de MVPs com IA.
 
 - [Enquadramento do problema](docs/enquadramento.md): contexto, dor do usuário, hipótese de valor, métrica de validação e fora de escopo.
+- [Arquitetura](docs/arquitetura.md): justificativa de cada componente da stack e comparação com o padrão Full-TS.
+
+## Rodando a API
+
+```bash
+docker compose up -d --build
+```
+
+Contrato OpenAPI em http://localhost:8000/docs.
 
 ---
 
